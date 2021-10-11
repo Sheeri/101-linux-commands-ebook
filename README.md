@@ -29,39 +29,66 @@ If you want to contribute, feel free to pick up a topic marked as `TODO` and sub
 Feel free to add new topics in case that you don't find one that you like from the current list.
 
 ---
+### Directory Navigation
+- [cd](ebook/en/content/002-the-cd-command.md) - change working directory
+- [ls](ebook/en/content/001-the-ls-command.md) - list directory contents
+- [pwd](ebook/en/content/006-the-pwd-command.md) - return working directory name
 
-- [001-the-ls-command.md](ebook/en/content/001-the-ls-command.md)
-- [002-the-cd-command.md](ebook/en/content/002-the-cd-command.md)
-- [003-the-cat-tac-command.md](ebook/en/content/003-the-cat-tac-command.md)
-- [004-the-head-command.md](ebook/en/content/004-the-head-command.md)
-- [005-the-tail-command.md](ebook/en/content/005-the-tail-command.md)
-- [006-the-pwd-command.md](ebook/en/content/006-the-pwd-command.md)
-- [007-the-touch-command.md](ebook/en/content/007-the-touch-command.md)
-- [008-the-cal-command.md](ebook/en/content/008-the-cal-command.md)
-- [009-the-bc-command.md](ebook/en/content/009-the-bc-command.md)
-- [010-the-df-command.md](ebook/en/content/010-the-df-command.md)
-- [011-the-help-command.md](ebook/en/content/011-the-help-command.md)
-- [012-the-factor-command.md](ebook/en/content/012-the-factor-command.md)
-- [013-the-uname-command.md](ebook/en/content/013-the-uname-command.md)
-- [014-the-mkdir-command.md](ebook/en/content/014-the-mkdir-command.md)
-- [015-the-gzip-command.md](ebook/en/content/015-the-gzip-command.md)
-- [016-the-whatis-command.md](ebook/en/content/016-the-whatis-command.md)
-- [017-the-who-command.md](ebook/en/content/017-the-who-command.md)
-- [018-the-free-command.md](ebook/en/content/018-the-free-command.md)
-- [019-the-top-htop-command.md](ebook/en/content/019-the-top-htop-command.md)
-- [020-the-sl-command.md](ebook/en/content/020-the-sl-command.md)
-- [021-the-echo-command.md](ebook/en/content/021-the-echo-command.md)
-- [022-the-finger-command.md](ebook/en/content/022-the-finger-command.md)
-- [023-the-groups-command.md](ebook/en/content/023-the-groups-command.md)
-- [024-the-man-command.md](ebook/en/content/024-the-man-command.md)
-- [025-the-passwd-command.md](ebook/en/content/025-the-passwd-command.md)
-- [026-the-w-command.md](ebook/en/content/026-the-w-command.md)
-- [027-the-whoami-command.md](ebook/en/content/027-the-whoami-command.md)
-- [028-the-history-command.md](ebook/en/content/028-the-history-command.md)
-- [029-the-login-command.md](ebook/en/content/029-the-login-command.md)
-- [030-the-lscpu-command.md](ebook/en/content/030-the-lscpu-command.md)
-- [031-the-cp-command.md](ebook/en/content/031-the-cp-command.md)
-- [032-the-mv-command.md](ebook/en/content/032-the-mv-command.md)
+
+### File Commands
+- [cat](ebook/en/content/003-the-cat-tac-command.md) - concatenate and print files
+- [tac]](ebook/en/content/003-the-cat-tac-command.md) - concatenate and print files in reverse
+- [head](ebook/en/content/004-the-head-command.md) - display the first lines of a file
+- [tail](ebook/en/content/005-the-tail-command.md) - display the last lines of a file
+
+### File and Directory Manipulation
+- [cp](ebook/en/content/031-the-cp-command.md) - copy files and directories
+- [gzip](ebook/en/content/015-the-gzip-command.md) - compression tool
+- [mkdir](ebook/en/content/014-the-mkdir-command.md) - make a new directory
+- [mv](ebook/en/content/032-the-mv-command.md) - move files and directories
+- [touch](ebook/en/content/007-the-touch-command.md) - change file access and modification times
+
+
+### Arithmetic
+- [bc](ebook/en/content/009-the-bc-command.md) - basic calculator
+- [factor](ebook/en/content/012-the-factor-command.md) - prints prime factors of numbers
+
+### System commands
+- [df](ebook/en/content/010-the-df-command.md) - display free disk space
+- [free](ebook/en/content/018-the-free-command.md) - show memory usage information
+- [lscpu](ebook/en/content/030-the-lscpu-command.md) - display CPU architecture information
+- [top](ebook/en/content/019-the-top-htop-command.md) - display process information
+- [htop](ebook/en/content/019-the-top-htop-command.md) - display enhanced process information
+- [uname](ebook/en/content/013-the-uname-command.md) - prints operating system details
+
+### User commands
+- [groups](ebook/en/content/023-the-groups-command.md) - show group memberships
+- [finger](ebook/en/content/022-the-finger-command.md) - shows information about users
+- [passwd](ebook/en/content/025-the-passwd-command.md) - modify a user's password
+- [w](ebook/en/content/026-the-w-command.md) - display who is logged in and what they are doing
+- [who](ebook/en/content/017-the-who-command.md) - display who is logged in
+- [whoami](ebook/en/content/027-the-whoami-command.md) - display effective user id
+
+### Getting Help
+- [man](ebook/en/content/024-the-man-command.md) - format and display online manual pages
+- [help](ebook/en/content/011-the-help-command.md) - displays help about basic commands not covered by 'man'
+- [whatis](ebook/en/content/016-the-whatis-command.md) - display one-line command descriptions
+
+
+
+- [cal](ebook/en/content/008-the-cal-command.md) - displays a calendar
+- [sl](ebook/en/content/020-the-sl-command.md) - runs a steam locomotive across your terminal
+
+- [echo](ebook/en/content/021-the-echo-command.md) - display interpreted arguments
+
+
+- [history](ebook/en/content/028-the-history-command.md) - display the command history
+
+- [login](ebook/en/content/029-the-login-command.md) - login and initiate a user session
+
+
+
+
 - [033-the-ps-command.md](ebook/en/content/033-the-ps-command.md)
 - [034-the-kill-command.md](ebook/en/content/034-the-kill-command.md)
 - [035-the-killall-command.md](ebook/en/content/035-the-killall-command.md)
