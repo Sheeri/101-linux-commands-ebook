@@ -32,42 +32,83 @@ Feel free to add new topics in case that you don't find one that you like from t
 ### Directory Navigation
 - [cd](ebook/en/content/002-the-cd-command.md) - change working directory
 - [ls](ebook/en/content/001-the-ls-command.md) - list directory contents
+- [dir](ebook/en/content/057-the-dir-command.md) - directory listing, columnar format
 - [pwd](ebook/en/content/006-the-pwd-command.md) - return working directory name
 
 
 ### File Commands
-- [cat](ebook/en/content/003-the-cat-tac-command.md) - concatenate and print files
-- [tac]](ebook/en/content/003-the-cat-tac-command.md) - concatenate and print files in reverse
+- [cat/tac](ebook/en/content/003-the-cat-tac-command.md) - concatenate and print files
 - [head](ebook/en/content/004-the-head-command.md) - display the first lines of a file
+- [locate](ebook/en/content/049-the-locate-command.md) - find files and directories
 - [tail](ebook/en/content/005-the-tail-command.md) - display the last lines of a file
+- [diff/sdiff](ebook/en/content/062-the-diff-sdiff-command.md) - compare files line by line
+
 
 ### File and Directory Manipulation
 - [cp](ebook/en/content/031-the-cp-command.md) - copy files and directories
-- [gzip](ebook/en/content/015-the-gzip-command.md) - compression tool
 - [mkdir](ebook/en/content/014-the-mkdir-command.md) - make a new directory
 - [mv](ebook/en/content/032-the-mv-command.md) - move files and directories
+- [rm](ebook/en/content/040-the-rm-command.md) - delete files and directories
+- [paste](ebook/en/content/060-the-paste-command.md) - merge corresponding or subsequent lines of file
+- [sort](ebook/en/content/059-the-sort-command.md) - arrange or merge lines of files
 - [touch](ebook/en/content/007-the-touch-command.md) - change file access and modification times
 
-
-### Arithmetic
-- [bc](ebook/en/content/009-the-bc-command.md) - basic calculator
-- [factor](ebook/en/content/012-the-factor-command.md) - prints prime factors of numbers
+### Package archive and compression tools 
+- [bzip2](ebook/en/content/069-the-bzip2-command.md) - block-sorting file compressor
+- [gzip](ebook/en/content/015-the-gzip-command.md) - compression tool
+- [gunzip](ebook/en/content/064-the-gunzip-command.md) - decompression tool
+- [tar](ebook/en/content/063-the-tar-command.md) - create, extract and manipulate archives
+- [zip](ebook/en/content/054-the-zip-command.md) - package and compress files
+- [unzip](ebook/en/content/055-the-unzip-command.md) - list, test, extract compressed ZIP files
 
 ### System commands
 - [df](ebook/en/content/010-the-df-command.md) - display free disk space
 - [free](ebook/en/content/018-the-free-command.md) - show memory usage information
-- [lscpu](ebook/en/content/030-the-lscpu-command.md) - display CPU architecture information
-- [top](ebook/en/content/019-the-top-htop-command.md) - display process information
-- [htop](ebook/en/content/019-the-top-htop-command.md) - display enhanced process information
+- [hostname](ebook/en/content/038-the-hostname-command.md) - set or print name of current host system
+- [hostnamectl](ebook/en/content/065-the-hostnamectl-command.md) - change hostname settings
+- [iostat](ebook/en/content/050-the-iostat-command.md) - I/O statistics
+- [kill](ebook/en/content/034-the-kill-command.md) - terminate or signal a process by id
+- [killall](ebook/en/content/035-the-killall-command.md) - kill processes by name
+- [lsof](ebook/en/content/068-the-lsof-command.md) - list open files
+- [mpstat](ebook/en/content/072-the-mpstat-command.md) - CPU statistics
+- [ps](ebook/en/content/033-the-ps-command.md) - display process status
+- [reboot](ebook/en/content/058-the-reboot-command.md) - restart the system
+- [service](ebook/en/content/070-the-service-command.md) - run an init script
+- [shutdown](ebook/en/content/056-the-shutdown-command.md) - close down the system at a specific time
+- [top/htop](ebook/en/content/019-the-top-htop-command.md) - display process information
 - [uname](ebook/en/content/013-the-uname-command.md) - prints operating system details
+- [vmstat](ebook/en/content/071-the-vmstat-command.md) - virtual memory statistics
 
-### User commands
+### Package Management
+- [apt](ebook/en/content/052-the-apt-command.md) - Debian package management
+- [yum](ebook/en/content/053-the-yum-command.md) - package manager for RedHat Linux
+
+### Networking Commands
+- [ifconfig](ebook/en/content/041-the-ifconfig-command.md) - configure network interface parameters
+- [ip](ebook/en/content/042-the-ip-command.md) - perform network administration tasks
+- [iptable](ebook/en/content/066-the-iptable-command.md) - configure IPv4 network firewall
+- [lscpu](ebook/en/content/030-the-lscpu-command.md) - display CPU architecture information
+- [netstat](ebook/en/content/067-the-netstat-command.md) - show network status
+
+### User Information commands
 - [groups](ebook/en/content/023-the-groups-command.md) - show group memberships
 - [finger](ebook/en/content/022-the-finger-command.md) - shows information about users
+- [last](ebook/en/content/048-the-last-command.md) - displays most recent user logins
 - [passwd](ebook/en/content/025-the-passwd-command.md) - modify a user's password
 - [w](ebook/en/content/026-the-w-command.md) - display who is logged in and what they are doing
 - [who](ebook/en/content/017-the-who-command.md) - display who is logged in
 - [whoami](ebook/en/content/027-the-whoami-command.md) - display effective user id
+
+### Session commands
+- [clear](ebook/en/content/043-the-clear-command.md) - clear terminal screen
+- [env](ebook/en/content/036-the-env-command.md) - display environment variables, or set variables for command execution
+- [exit](ebook/en/content/061-the-exit-command.md) - close the active session/shell
+- [printenv](ebook/en/content/037-the-printenv-command.md) - print specified environment variables
+- [history](ebook/en/content/028-the-history-command.md) - display the command history
+- [login](ebook/en/content/029-the-login-command.md) - login and initiate a user session
+- [su](ebook/en/content/044-the-su-command.md) - substitute user identity
+- [sudo](ebook/en/content/051-the-sudo-command.md) - execute a command as another user
+
 
 ### Getting Help
 - [man](ebook/en/content/024-the-man-command.md) - format and display online manual pages
@@ -76,68 +117,31 @@ Feel free to add new topics in case that you don't find one that you like from t
 
 
 
+### Basic Apps
+- [bc](ebook/en/content/009-the-bc-command.md) - basic calculator
 - [cal](ebook/en/content/008-the-cal-command.md) - displays a calendar
+- [nano](ebook/en/content/039-the-nano-command.md) - text editor
 - [sl](ebook/en/content/020-the-sl-command.md) - runs a steam locomotive across your terminal
 
+- [factor](ebook/en/content/012-the-factor-command.md) - prints prime factors of numbers
 - [echo](ebook/en/content/021-the-echo-command.md) - display interpreted arguments
 
+- [wget](ebook/en/content/045-the-wget-command.md) - non-interactive web file download
+- [curl](ebook/en/content/046-the-curl-command.md) - transfer data to or from a server
 
-- [history](ebook/en/content/028-the-history-command.md) - display the command history
-
-- [login](ebook/en/content/029-the-login-command.md) - login and initiate a user session
-
-
+- [yes](ebook/en/content/047-the-yes-command.md) - print continous output stream
 
 
-- [033-the-ps-command.md](ebook/en/content/033-the-ps-command.md)
-- [034-the-kill-command.md](ebook/en/content/034-the-kill-command.md)
-- [035-the-killall-command.md](ebook/en/content/035-the-killall-command.md)
-- [036-the-env-command.md](ebook/en/content/036-the-env-command.md)
-- [037-the-printenv-command.md](ebook/en/content/037-the-printenv-command.md)
-- [038-the-hostname-command.md](ebook/en/content/038-the-hostname-command.md)
-- [039-the-nano-command.md](ebook/en/content/039-the-nano-command.md)
-- [040-the-rm-command.md](ebook/en/content/040-the-rm-command.md)
-- [041-the-ifconfig-command.md](ebook/en/content/041-the-ifconfig-command.md)
-- [042-the-ip-command.md](ebook/en/content/042-the-ip-command.md)
-- [043-the-clear-command.md](ebook/en/content/043-the-clear-command.md)
-- [044-the-su-command.md](ebook/en/content/044-the-su-command.md)
-- [045-the-wget-command.md](ebook/en/content/045-the-wget-command.md)
-- [046-the-curl-command.md](ebook/en/content/046-the-curl-command.md)
-- [047-the-yes-command.md](ebook/en/content/047-the-yes-command.md)
-- [048-the-last-command.md](ebook/en/content/048-the-last-command.md)
-- [049-the-locate-command.md](ebook/en/content/049-the-locate-command.md)
-- [050-the-iostat-command.md](ebook/en/content/050-the-iostat-command.md)
-- [051-the-sudo-command.md](ebook/en/content/051-the-sudo-command.md)
-- [052-the-apt-command.md](ebook/en/content/052-the-apt-command.md)
-- [053-the-yum-command.md](ebook/en/content/053-the-yum-command.md)
-- [054-the-zip-command.md](ebook/en/content/054-the-zip-command.md)
-- [055-the-unzip-command.md](ebook/en/content/055-the-unzip-command.md)
-- [056-the-shutdown-command.md](ebook/en/content/056-the-shutdown-command.md)
-- [057-the-dir-command.md](ebook/en/content/057-the-dir-command.md)
-- [058-the-reboot-command.md](ebook/en/content/058-the-reboot-command.md)
-- [059-the-sort-command.md](ebook/en/content/059-the-sort-command.md)
-- [060-the-paste-command.md](ebook/en/content/060-the-paste-command.md)
-- [061-the-exit-command.md](ebook/en/content/061-the-exit-command.md)
-- [062-the-diff-sdiff-command.md](ebook/en/content/062-the-diff-sdiff-command.md)
-- [063-the-tar-command.md](ebook/en/content/063-the-tar-command.md)
-- [064-the-gunzip-command.md](ebook/en/content/064-the-gunzip-command.md)
-- [065-the-hostnamectl-command.md](ebook/en/content/065-the-hostnamectl-command.md)
-- [066-the-iptable-command.md](ebook/en/content/066-the-iptable-command.md)
-- [067-the-netstat-command.md](ebook/en/content/067-the-netstat-command.md)
-- [068-the-lsof-command.md](ebook/en/content/068-the-lsof-command.md)
-- [069-the-bzip2-command.md](ebook/en/content/069-the-bzip2-command.md)
-- [070-the-service-command.md](ebook/en/content/070-the-service-command.md)
-- [071-the-vmstat-command.md](ebook/en/content/071-the-vmstat-command.md)
-- [072-the-mpstat-command.md](ebook/en/content/072-the-mpstat-command.md)
-- [073-the-ncdu-command.md](ebook/en/content/073-the-ncdu-command.md)
-- [074-the-uniq-command.md](ebook/en/content/074-the-uniq-command.md)
-- [075-the-rpm-command.md](ebook/en/content/075-the-rpm-command.md)
-- [076-the-scp-command.md](ebook/en/content/076-the-scp-command.md)
-- [077-the-sleep-command.md](ebook/en/content/077-the-sleep-command.md)
-- [078-the-split-command.md](ebook/en/content/078-the-split-command.md)
-- [079-the-stat-command.md](ebook/en/content/079-the-stat-command.md)
-- [080-the-useradd-command.md](ebook/en/content/080-the-useradd-command.md)
-- [081-the-userdel-command.md](ebook/en/content/081-the-userdel-command.md)
+
+- [ncdu](ebook/en/content/073-the-ncdu-command.md) - 
+- [uniq](ebook/en/content/074-the-uniq-command.md) - 
+- [rpm](ebook/en/content/075-the-rpm-command.md) - 
+- [scp](ebook/en/content/076-the-scp-command.md) - 
+- [sleep](ebook/en/content/077-the-sleep-command.md) - 
+- [split](ebook/en/content/078-the-split-command.md) - 
+- [stat](ebook/en/content/079-the-stat-command.md) - 
+- [useradd](ebook/en/content/080-the-useradd-command.md) - 
+- [userdel](ebook/en/content/081-the-userdel-command.md) - 
 - [082-the-usermod-command.md](ebook/en/content/082-the-usermod-command.md)
 - [083-the-ionice-command.md](ebook/en/content/083-the-ionice-command.md)
 - [084-the-du-command.md](ebook/en/content/084-the-du-command.md)
